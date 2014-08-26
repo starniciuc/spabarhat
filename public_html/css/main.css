@@ -708,3 +708,10 @@ ul.description-list li a:hover{
 	text-decoration: none;
 	border: 0;
 }
+.list-item{
+	background-color: #fdf8e2;
+	padding: 15px;
+	background-image: url("../img/flow.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
