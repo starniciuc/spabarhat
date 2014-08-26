@@ -323,16 +323,95 @@ h2{
     text-align: center;
     font-size: 20px;
     margin: 0;
-    padding: 10px;
+    padding: 12px;
 }
 .list-second{
     padding: 0;
     padding-left: 30px;
     list-style: none;
 }
+.list-second li span{
+	border-bottom: 1px solid #2a9316;
+}
 .list-second li span.checked{
     background-image: url("../img/list-check.png");
     background-position: center center;
     padding: 10px;
     background-repeat: no-repeat;
+	display: inline-block;
+	line-height: 100%;
+	border: 0;
+}
+.list-second li {
+    font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.text-block .text-side p{
+	padding-top: 25px;
+	font-size: 15px;
+	color: #0e0d0d;
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.text-block .text-side h4{
+	font-size: 26px;
+	line-height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0186c7;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.text-block{
+	background-image: url("../img/women2.png");
+	background-position: left center;
+	background-repeat:  no-repeat;
+}
+.second-block.gift .main{
+	position: relative;
+	background: none;
+	background-color: #fce1a9;
+	padding: 15px;
+}
+.second-block.gift .gift-img{
+	background-image: url("../img/gift.png");
+	background-repeat: no-repeat;
+	width: 207px;
+	height: 157px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 3;
+}
+.second-block.gift h1{
+	text-align: left;
+	border: 0;
+}
+.second-block.gift p{
+	color:#000;
+	font-size: 15px;
+	padding-right: 220px;
+}
+.second-block.gift p span{
+	color:#0186c7;
+	text-transform: uppercase;
+}
+.block-pachet{
+	border:1px solid #f3e3cc;
+}
+.block-pachet .header{
+	background: rgb(245,236,223); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y1ZWNkZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI2JSIgc3RvcC1jb2xvcj0iI2ZjZjVkZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZkZjhlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iI2Y4ZWVkNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWRjYzIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(245,236,223,1) 0%, rgba(252,245,222,1) 26%, rgba(253,248,226,1) 50%, rgba(248,238,214,1) 80%, rgba(238,220,194,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,236,223,1)), color-stop(26%,rgba(252,245,222,1)), color-stop(50%,rgba(253,248,226,1)), color-stop(80%,rgba(248,238,214,1)), color-stop(100%,rgba(238,220,194,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(245,236,223,1) 0%,rgba(252,245,222,1) 26%,rgba(253,248,226,1) 50%,rgba(248,238,214,1) 80%,rgba(238,220,194,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(245,236,223,1) 0%,rgba(252,245,222,1) 26%,rgba(253,248,226,1) 50%,rgba(248,238,214,1) 80%,rgba(238,220,194,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(245,236,223,1) 0%,rgba(252,245,222,1) 26%,rgba(253,248,226,1) 50%,rgba(248,238,214,1) 80%,rgba(238,220,194,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(245,236,223,1) 0%,rgba(252,245,222,1) 26%,rgba(253,248,226,1) 50%,rgba(248,238,214,1) 80%,rgba(238,220,194,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ecdf', endColorstr='#eedcc2',GradientType=0 ); /* IE6-8 */
 }
