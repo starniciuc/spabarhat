@@ -14,6 +14,12 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script>
+            var video = '<iframe width="366" height="270" src="http://www.youtube.com/embed/G35JoXRcN_4?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+            var video1 = '<iframe width="366" height="270" src="http://www.youtube.com/embed/A59K-3eFN9o?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+            var video2 = '<iframe width="366" height="270" src="http://www.youtube.com/embed/CH-S133hr_0?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+            var video3 = '<iframe width="366" height="270" src="http://www.youtube.com/embed/Go2DMeMQr3U?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+        </script>
     </head>
     <body onload="timer()">
         <!--[if lt IE 7]>
@@ -492,10 +498,10 @@
                     <div class="list-item clearfix">
                         <p class="title"><a href="#">Радиочастотный (RF) лифтинг на аппаратах Accent XL Ultra</a></p>
                         <div class="description clearfix">
-                            <div class="image-block">
+                            <div class="image-block" id="video-side">
                                 <img src="img/img11.png" alt="image">
-                                <a href="javascript:void(0)" class="play"></a>
-                            </div>	
+                                <a href="javascript:void(0)" onclick="document.getElementById('video-side').innerHTML = video;" class="play"></a>
+                            </div>
                             <p>Принципиально новые разработки израильских ученых, основанные на сочетании нескольких видов энергий.
                                 Аппарат Accent XL Ultra (Акцент XL Ультра) включает в себя ультразвуковой селективный липолиз в сочетании с радиочастотным термолифтингом.
                             </p>
@@ -512,9 +518,9 @@
                     <div class="list-item clearfix">
                         <p class="title"><a href="#">Аппарат Vela Shape ll (Вела шейп ll) </a></p>
                         <div class="description clearfix">
-                            <div class="image-block">
+                           <div class="image-block" id="video-side2">
                                 <img src="img/img22.png" alt="image">
-                                <a href="javascript:void(0)" class="play"></a>
+                                <a href="javascript:void(0)" onclick="document.getElementById('video-side2').innerHTML = video1;" class="play"></a>
                             </div>
                             <p><strong>Эффект аппарата основан на сочетании 4-х факторов:</strong> вакуума, механических роликов, инфракрасного света и радиочастоты.</p>
                             <p>Ролики в сочетании с вакуумом массируют кожу, улучшая циркуляцию крови, устраняя застоенные явления, приводящие к целлюлиту. Инфракрасное излучение и высокочастотные токи активизируют метаболический распад жира (липолиз), что приводит к уменьшению объема самих жировых клеток. Таким образом, устраняется эффект «апельсиновой корки», происходит значительное уменьшение объемов, устраняются признаки целлюлита, кожа разглаживается и подтягивается. Пяти сеансов достаточно для избавления от лишних 5-10 см. <strong>Восстановление структуры, повышение упругости и эластичности кожи на 20-30% уже после первой процедуры.</strong></p>
@@ -527,10 +533,10 @@
                     <div class="list-item clearfix">
                         <p class="title"><a href="#">Миостимуляция на аппарате Vip Line Millennium</a></p>
                         <div class="description clearfix">
-                            <div class="image-block">
+                            <div class="image-block" id="video-side3">
                                 <img src="img/img3.png" alt="image">
-                                <a href="javascript:void(0)" class="play"></a>
-                            </div
+                                <a href="javascript:void(0)" onclick="document.getElementById('video-side3').innerHTML = video2;" class="play"></a>
+                            </div>
                             <p><strong>Или фитнес для ленивых.</strong> Направлена на потерю объема, моделирование фигуры, формирование мышц и повышение тонуса кожи. Попеременное сокращение и расслабление мышц похоже на тренировку в спортзале, но во много раз превосходит ее по эффективности.
                                 При выборе функции «транзион» достигается изотоническое (линейное) сокращение мышц в сочетании с торсионным их скручиванием. Процедуры ТРАНЗИОН подобны сконцентрированной тренировке тела, сочетающей сжигание калорий и укрепление мышц. Доказано, что 25-минутная процедура ТРАНЗИОН столь же эффективна, что и 3-часовая тренировка. Таким образом, результатом курса процедур является уменьшение объемов уже после первой процедуры (минус1-3 см.), активизация метаболических процессов в жировой ткани, выраженный лимфодренажный эффект, быстрая локализованная борьба с лишним весом.
                                 При выборе функции «изоджей», достигается изометрическое (статическое) сокращение мышц, приводящие к повышению их тонуса и скульптурированию тела. Результатом курса процедур станет моделирование мышц ягодиц, бедер, передней брюшной стенки, плечевого пояса и т.д.
@@ -544,8 +550,9 @@
                     <div class="list-item clearfix">
                         <p class="title"><a href="#">Клеточная электротерапия + вакуум на аппарате Biogenie CB-3000</a></p>
                         <div class="description clearfix">
-                            <div class="image-block">
+                            <div class="image-block" id="video-side4">
                                 <img src="img/img4.png" alt="image">
+                                <a href="javascript:void(0)" onclick="document.getElementById('video-side4').innerHTML = video3;" class="play"></a>
                             </div>
                             <p><strong>Biogenie CB-3000</strong> - аппарат для моделирования фигуры и коррекции целлюлита, сочетающий клеточную электротерапию, вакуумное воздействие, косметические средства для ухода за телом и ручную методику массажа.</p>
                             <p>Аппарат дает высокие результаты в рамках антицеллюлитной и антивозрастной терапии, послеродовых проблем, общеоздоровительных процедур. В результате курса терапии Ваши ягодицы приобретут форму «бразильской попки», бедра станут упругими, а талия стройной.</p>
