@@ -15,7 +15,7 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body>
+    <body onload="timer()">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -361,21 +361,21 @@
                                         До конца акции осталось: </p>
                                     <div class="timer clearfix">
                                         <div class="days">
-                                            <div class="count">
+                                            <div class="count" id="days">
                                                 30
                                             </div>
                                             <span>дней</span>
                                         </div>
                                         <span class="pts">:</span>
                                         <div class="hour">
-                                            <div class="count">
+                                            <div class="count" id="hours">
                                                 23
                                             </div>
                                             <span>часов</span>
                                         </div>
                                         <span class="pts">:</span>
                                         <div class="min">
-                                            <div class="count">
+                                            <div class="count" id='minutes'>
                                                 03
                                             </div>
                                             <span>минут</span>
@@ -1152,6 +1152,6 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-
+		
     </body>
 </html>
