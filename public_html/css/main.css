@@ -14,6 +14,8 @@ body {
 .wrapper{
     width: 900px;
     margin: 0 auto;
+    padding-left: 17px;
+    width: 917px;
 }
 header{
     width: 100%;
@@ -819,7 +821,7 @@ footer{
     height: 207px;
     -webkit-margin-left: -51px;
     -moz-margin-left: -50px;
-    margin-left: -50px;
+    margin-left: -34px;
     background-image: url("../img/footer.png");
     background-repeat: no-repeat;
     background-position: center center;
