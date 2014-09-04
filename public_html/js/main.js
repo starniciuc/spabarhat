@@ -1,6 +1,3 @@
-
-
-
 function timer() {
 	var day = 30;
 	var hour = 23;
