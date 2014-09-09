@@ -686,7 +686,7 @@ p.num span{
     background-color: #fdf8e2;
     padding: 10px;
     margin-bottom: 30px;
-    height: 350px;
+    min-height: 350px;
 }
 .block-user .image-block{
     width: 151px;

@@ -1,7 +1,8 @@
 function timer() {
-	var day = 30;
-	var hour = 23;
-	var minute = 1;
+        var dt = new Date();
+	var day = 30 - dt.getDate();
+	var hour = 23 - dt.getHours();
+	var minute = 59 - dt.getMinutes();
 	$("#days").empty();
 	$("#days").append(day);
 
